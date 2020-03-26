@@ -36,6 +36,8 @@ onChange = (e) => {
     color: this.divColor,
     clickCounter: prevState.clickCounter+1
   }));
+  //psuedocode:log the clicks
+  console.log("click counter ===> ", this.state.clickCounter);
 }
   //psuedocode:render the colorbox with its click paragraph
   render() {
