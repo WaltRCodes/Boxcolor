@@ -19,7 +19,11 @@ constructor(props) {
 onChange = (e) => {
   //psuedocode: if statement to toggle color
   if(this.state.isToggleOn){
-    
+    //psuedocode:update the color to blue if its orange
+    this.divColor='blue';
+    this.setState(prevState => ({
+      isToggleOn: !prevState.isToggleOn
+    }));
   }
 }
   //psuedocode:render the colorbox with its click paragraph
