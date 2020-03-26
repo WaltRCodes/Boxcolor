@@ -25,7 +25,11 @@ onChange = (e) => {
       isToggleOn: !prevState.isToggleOn
     }));
   } else {
-    
+    //psuedocode:update the color to orange if its blue
+    this.divColor='orange';
+    this.setState(prevState => ({
+      isToggleOn: !prevState.isToggleOn
+    }));
   }
 }
   //psuedocode:render the colorbox with its click paragraph
