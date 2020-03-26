@@ -7,6 +7,8 @@ export default class App extends Component {
 constructor(props) {
   //psuedocode:call the super constructor for props
   super(props);
+  //psuedocode:make a variable to hold color
+  this.divColor='blue';
 }
   //psuedocode:render the colorbox with its click paragraph
   render() {
