@@ -31,6 +31,11 @@ onChange = (e) => {
       isToggleOn: !prevState.isToggleOn
     }));
   }
+  //psuedocode:update the counter and div color
+  this.setState(prevState => ({
+    color: this.divColor,
+    clickCounter: prevState.clickCounter+1
+  }));
 }
   //psuedocode:render the colorbox with its click paragraph
   render() {
