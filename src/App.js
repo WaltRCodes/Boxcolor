@@ -24,6 +24,8 @@ onChange = (e) => {
     this.setState(prevState => ({
       isToggleOn: !prevState.isToggleOn
     }));
+  } else {
+    
   }
 }
   //psuedocode:render the colorbox with its click paragraph
