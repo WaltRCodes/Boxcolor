@@ -16,6 +16,9 @@ constructor(props) {
     isToggleOn: false
   }
 }
+onChange = (e) => {
+  
+}
   //psuedocode:render the colorbox with its click paragraph
   render() {
     return (
