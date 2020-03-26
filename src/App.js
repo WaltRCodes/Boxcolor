@@ -9,6 +9,12 @@ constructor(props) {
   super(props);
   //psuedocode:make a variable to hold color
   this.divColor='blue';
+  //psuedocode:make the state variables with the color, toggle and counter
+  this.state = {
+    color: this.divColor,
+    clickCounter: 0,
+    isToggleOn: false
+  }
 }
   //psuedocode:render the colorbox with its click paragraph
   render() {
