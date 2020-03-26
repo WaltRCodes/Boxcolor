@@ -17,7 +17,10 @@ constructor(props) {
   }
 }
 onChange = (e) => {
-  
+  //psuedocode: if statement to toggle color
+  if(this.state.isToggleOn){
+    
+  }
 }
   //psuedocode:render the colorbox with its click paragraph
   render() {
