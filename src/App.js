@@ -5,7 +5,8 @@ import './App.css';
 export default class App extends Component {
 //psuedocode:make a constructor for the App class
 constructor(props) {
-  
+  //psuedocode:call the super constructor for props
+  super(props);
 }
   //psuedocode:render the colorbox with its click paragraph
   render() {
